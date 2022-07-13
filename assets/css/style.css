@@ -215,10 +215,10 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--VeryLightGray);
+  background-color: var(--LightGrayishBlue);
   padding: 1.2rem 2.2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 0.4rem var(--VeryLightGray);
+  box-shadow: 0 0 0.3rem var(--LightGrayishBlue);
 }
 
 .intro h1 {
@@ -273,10 +273,10 @@ body {
 .features-intro {
   flex-direction: column;
   --gap: 0.5em;
-  background-color: var(--VeryLightGray);
+  background-color: var(--LightGrayishBlue);
   padding: 1.8rem 2.2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 0.3rem var(--VeryLightGray);
+  box-shadow: 0 0 0.3rem var(--LightGrayishBlue);
 }
 
 .features-intro h2 {
@@ -292,10 +292,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1em;
-  background-color: var(--VeryLightGray);
+  background-color: var(--LightGrayishBlue);
   padding: 1.2rem 2.2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 0.3rem var(--VeryLightGray);
+  box-shadow: 0 0 0.2rem var(--LightGrayishBlue);
 }
 
 /* features (desktop version) */
@@ -325,10 +325,10 @@ body {
   flex-direction: column;
   padding-block: 2rem;
   margin-block-start: 2rem;
-  background-color: var(--VeryLightGray);
+  background-color: var(--LightGrayishBlue);
   padding: 1.2rem 2.2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 0.3rem var(--VeryLightGray);
+  box-shadow: 0 0 0.3rem var(--LightGrayishBlue);
 }
 
 .articles h2 {
@@ -345,7 +345,7 @@ body {
   background-color: var(--White);
   border-radius: 1rem;
   /* min-height: 30rem; */
-  box-shadow: 0 0 0.2rem var(--GrayishBlue);
+  box-shadow: 0 0 0.2rem transparent;
   transform: scale(0.95);
   transition: box-shadow 350ms ease-in-out, transform 300ms ease-in-out;
   cursor: pointer;
